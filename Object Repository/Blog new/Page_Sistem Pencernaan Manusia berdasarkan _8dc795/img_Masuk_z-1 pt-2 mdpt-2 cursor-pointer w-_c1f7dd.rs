@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Masuk_z-1 pt-2 mdpt-2 cursor-pointer w-_c1f7dd</name>
+   <tag></tag>
+   <elementGuidId>6983c171-0364-4e69-99fd-8f1ed756c661</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>b14cb593-c114-488b-bc28-053224f130f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>link icon</value>
+      <webElementGuid>ff5ed035-741c-4837-838d-729ff392edb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-1 pt-2 md:pt-2 cursor-pointer w-6 m-auto</value>
+      <webElementGuid>25b160fd-4879-4b1d-97cf-695070cd8e7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/link_blog.svg</value>
+      <webElementGuid>5e9dbb9f-2893-435d-9cb6-86fc5c3ef251</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sosmed-widget&quot;)/div[@class=&quot;p-2 flex flex-col gap-y-4&quot;]/img[@class=&quot;z-1 pt-2 md:pt-2 cursor-pointer w-6 m-auto&quot;]</value>
+      <webElementGuid>daeccdb5-dafd-4665-89fb-c7efe4ee9930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sosmed-widget']/div/img</value>
+      <webElementGuid>7fedd488-1193-49c6-841c-a16ca6ed0793</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='link icon']</value>
+      <webElementGuid>609520eb-0940-4423-859b-fef006e4c587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/img</value>
+      <webElementGuid>0cfed763-4fbd-40f8-bfcc-c7eed9ed22bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'link icon' and @src = '/static/icons/link_blog.svg']</value>
+      <webElementGuid>5a5be286-edf1-4ad4-bae7-b2c21a8dd0e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

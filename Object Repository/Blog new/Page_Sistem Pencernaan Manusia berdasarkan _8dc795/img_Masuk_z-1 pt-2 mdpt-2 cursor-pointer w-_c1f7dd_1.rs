@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Masuk_z-1 pt-2 mdpt-2 cursor-pointer w-_c1f7dd_1</name>
+   <tag></tag>
+   <elementGuidId>69f087ba-b052-4693-b01f-17be6f691a37</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sosmed-widget']/div/img[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7b28bac4-cbd2-4f86-820a-986febbeb7a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>twitter icon</value>
+      <webElementGuid>b5218de1-7641-42a4-8296-659b0aa56903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-1 pt-2 md:pt-2 cursor-pointer w-6 m-auto</value>
+      <webElementGuid>1512c117-effc-4eef-99ac-5f052bf598df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/icons/twitter_blog.svg</value>
+      <webElementGuid>da00a87d-4589-4d41-9203-d9d12d452927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sosmed-widget&quot;)/div[@class=&quot;p-2 flex flex-col gap-y-4&quot;]/img[@class=&quot;z-1 pt-2 md:pt-2 cursor-pointer w-6 m-auto&quot;]</value>
+      <webElementGuid>1e5f4b11-acdb-4d2d-a058-8a6db0181392</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sosmed-widget']/div/img[4]</value>
+      <webElementGuid>da6e5637-b3d2-4959-9ddc-babe2064ebf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='twitter icon']</value>
+      <webElementGuid>73560a8f-1734-4628-9a89-46e86d2da5b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img[4]</value>
+      <webElementGuid>b0b02535-699f-496e-ac46-7350e4d3528a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'twitter icon' and @src = '/static/icons/twitter_blog.svg']</value>
+      <webElementGuid>efd4e0d0-6548-4553-87c2-f031bffa51f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
