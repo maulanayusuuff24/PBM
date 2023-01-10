@@ -19,12 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.telkom.pijarbelajar', FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Object Repository/Login Revamp/android.view.ViewGroup - Masuk'), 30)
+
 Mobile.setText(findTestObject('Object Repository/Login Revamp/android.widget.EditText - Masukkan nomor handphoneemail kamu'), 
-    'jajangnurjaman@yopmail.com', 60)
+    'mangaku22@yopmail.com', 60)
 
 Mobile.tap(findTestObject('Object Repository/Login Revamp/android.widget.TextView - Lanjutkan'), 0)
 
 Mobile.setText(findTestObject('Object Repository/Login Revamp/android.widget.EditText - otp'), '', 60)
 
-Mobile.getText(findTestObject('Search-Home/android.widget.TextView - Mau belajar apa hari ini'), 30)
+Mobile.tap(findTestObject('Object Repository/Login Revamp/android.view.ViewGroup - close popup'), 0)
+
+Mobile.getText(findTestObject('Object Repository/Login Revamp/android.widget.TextView - Mau belajar apa hari ini'), 0)
 

@@ -17,14 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.telkom.pijarbelajar', FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login/Login Basic Revamp'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Object Repository/Login Revamp/android.widget.EditText - Masukkan nomor handphoneemail kamu'), 
-    'jajangnurjaman@yopmail.com', 60)
+Mobile.tap(findTestObject('Search-Home/android.widget.TextView - Mau belajar apa hari ini'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Login Revamp/android.widget.TextView - Lanjutkan'), 0)
+Mobile.setText(findTestObject('Object Repository/Search-Home/android.widget.EditText - Cari materi, soal, buku pelajaran'), 
+    'a', 0)
 
-Mobile.setText(findTestObject('Object Repository/Login Revamp/android.widget.EditText - otp'), '', 60)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Search-Home/TextView - Menampilkan'), 0)
 
-Mobile.getText(findTestObject('Search-Home/android.widget.TextView - Mau belajar apa hari ini'), 30)
+Mobile.tap(findTestObject('Object Repository/Search-Home/Back-Search'), 0)
+
+Mobile.closeApplication()
 
